@@ -1,0 +1,23 @@
+{
+  "name": "postman_newman_apitest",
+  "version": "1.0.0",
+  "description": "Introduce automated testing of interfaces using postman and newman",
+  "main": "index.js",
+  "scripts": {
+    "APItest": "newman run APITestDemo.postman_collection.json -e DemoEnv.postman_environment.json -r html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naodeng/Postman_Newman_APItest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naodeng/Postman_Newman_APItest/issues"
+  },
+  "homepage": "https://github.com/naodeng/Postman_Newman_APItest#readme",
+  "devDependencies": {
+    "newman": "^5.3.2",
+    "newman-reporter-html": "^1.0.5"
+  }
+}
