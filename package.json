@@ -4,7 +4,7 @@
   "description": "Introduce automated testing of interfaces using postman and newman",
   "main": "index.js",
   "scripts": {
-    "APItest": "newman run APITestDemo.postman_collection.json -e DemoEnv.postman_environment.json -r html"
+    "APItest": "newman run APITestDemo.postman_collection.json -e DemoEnv.postman_environment.json"
   },
   "repository": {
     "type": "git",
